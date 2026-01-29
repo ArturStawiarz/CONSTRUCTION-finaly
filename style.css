@@ -82,13 +82,14 @@ body {
 ========================= */
 .hero {
   background-color: #0f172a;
-  background-image: url("assets/bg/blueprint-dark.svg");
-  background-size: cover;
+  background-image: url("blueprint.svg");
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  color: #ffffff;
   padding: 120px 0;
   text-align: center;
 }
-
 .hero h1 {
   font-size: 3rem;
   max-width: 900px;
@@ -226,5 +227,6 @@ body {
     font-size: 2.2rem;
   }
 }
+
 
 
